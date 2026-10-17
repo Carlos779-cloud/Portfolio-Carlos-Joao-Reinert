@@ -4,126 +4,427 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio - Carlos</title>
+    <title>Carlos João Reinert | Machine Learning Preditivo & IA</title>
+    <meta name="description" content="Portfólio de Carlos João Reinert - Profissional com background em Logística em transição para Machine Learning Preditivo, Python e Inteligência Artificial.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <header>
-        <h1>Carlos João Reinert</h1>
+    <!-- NAVEGAÇÃO -->
+    <header class="header">
+        <div class="nav-container">
+            <a href="#" class="logo">
+                <span class="logo-accent">&lt;</span>Carlos João Reinert<span class="logo-accent"> /&gt;</span>
+            </a>
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="#sobre">Sobre Mim</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
+                    <li><a href="#habilidades">Habilidades</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+            <div class="nav-social">
+                <a href="https://github.com/Carlos779-cloud" target="_blank" rel="noopener noreferrer" title="GitHub">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/carlos-joao-reinert" target="_blank" rel="noopener noreferrer" title="LinkedIn">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+            </div>
+        </div>
     </header>
 
-    <nav>
-        <ul>
-            <li><a href="#sobre">Sobre</a></li>
-            <li><a href="#projetos">Projetos</a></li>
-            <li><a href="#habilidades">Habilidades</a></li>
-            <li><a href="#contato">Contato</a></li>
-        </ul>
-    </nav>
-
-    <!-- SOBRE -->
-    <section id="sobre">
-        <div class="container grid">
-            <div>
-                <img src="./foto.img/1742584256179.jpg" alt="Foto de perfil">
+    <!-- HERO SECTION -->
+    <section class="hero" id="inicio">
+        <div class="container hero-grid">
+            <div class="hero-content">
+                <div class="badge">
+                    <i class="fa-solid fa-brain"></i> Transição: Logística ➔ Machine Learning & IA
+                </div>
+                <h1 class="hero-title">Carlos João Reinert</h1>
+                <h2 class="hero-subtitle">Machine Learning Preditivo & Inteligência Artificial</h2>
+                <p class="hero-description">
+                    Unindo sólida vivência operacional em <strong>Logística</strong> com o poder analítico de 
+                    <strong>Python, Ciência de Dados e Algoritmos Preditivos</strong> para antecipar cenários, prevenir falhas 
+                    e otimizar processos complexos.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projetos" class="btn btn-primary">
+                        <i class="fa-solid fa-diagram-project"></i> Ver Projetos
+                    </a>
+                    <a href="https://www.linkedin.com/in/carlos-joao-reinert" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+                        <i class="fa-brands fa-linkedin"></i> Conectar no LinkedIn
+                    </a>
+                </div>
             </div>
 
-            <div>
-                <h2>Sobre mim</h2>
-                <p>Olá! Eu sou Carlos, desenvolvedor web focado em front-end moderno,
-                    criando interfaces responsivas e profissionais.</p>
+            <div class="hero-profile">
+                <div class="profile-card">
+                    <div class="profile-image-wrapper">
+                        <img src="./foto.img/1742584256179.jpg" alt="Foto de perfil de Carlos João Reinert" class="profile-img">
+                    </div>
+                    <div class="profile-info">
+                        <h3>Carlos João Reinert</h3>
+                        <p><i class="fa-solid fa-chart-line"></i> Foco em Modelos Preditivos</p>
+                        <span class="status-indicator">
+                            <span class="status-dot"></span> Aberto a novas oportunidades
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-                <aside>
-                    <h3>Habilidades</h3>
-                    <ul>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>JavaScript</li>
-                    </ul>
-                </aside>
+    <!-- SOBRE MIM -->
+    <section id="sobre" class="section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Trajetória</span>
+                <h2>Sobre Mim</h2>
+                <p>O encontro entre a experiência prática de operações e a inteligência de dados</p>
+            </div>
+
+            <div class="sobre-grid">
+                <div class="sobre-texto">
+                    <p>
+                        Minha trajetória é construída na área de <strong>Logística</strong>, vivenciando os desafios diários 
+                        de gestão de cadeia de suprimentos, previsibilidade operacional, controle de recursos e tomada de decisão ágil.
+                    </p>
+                    <p>
+                        Percebendo que as maiores oportunidades do setor residem na <strong>análise preditiva</strong>, direcionei minha 
+                        especialização para <strong>Machine Learning e Inteligência Artificial com Python</strong>. 
+                        Hoje, desenvolvo soluções voltadas para detecção de anomalias, manutenção preditiva, previsão de demanda 
+                        e classificação automatizada de padrões.
+                    </p>
+                    <p>
+                        Meu grande diferencial é aliar a <strong>visão de negócio e a dor do cliente interno</strong> à capacidade técnica 
+                        de estruturar pipelines de dados, treinar modelos supervisionados (Random Forest, SVM, Redes Neurais MLP) 
+                        e avaliar métricas de impacto real.
+                    </p>
+                </div>
+
+                <div class="diferenciais-cards">
+                    <div class="diferencial-card">
+                        <div class="card-icon"><i class="fa-solid fa-truck-ramp-box"></i></div>
+                        <div>
+                            <h4>Visão de Negócio Logístico</h4>
+                            <p>Domínio das dores operacionais, gargalos de fluxo, controle de estoque e necessidade de assertividade.</p>
+                        </div>
+                    </div>
+                    <div class="diferencial-card">
+                        <div class="card-icon"><i class="fa-solid fa-microchip"></i></div>
+                        <div>
+                            <h4>Modelagem Preditiva</h4>
+                            <p>Desenvolvimento de modelos com validação criteriosa, balanceamento de dados e análise de métricas reais.</p>
+                        </div>
+                    </div>
+                    <div class="diferencial-card">
+                        <div class="card-icon"><i class="fa-solid fa-code"></i></div>
+                        <div>
+                            <h4>Engenharia com Python</h4>
+                            <p>Construção de pipelines de tratamento de dados organizados, orientados a objetos e reprodutíveis.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
     <!-- PROJETOS -->
-    <section id="projetos">
+    <section id="projetos" class="section section-dark">
         <div class="container">
-            <h2>Projetos</h2>
-            <article>
-                <h3>Portfólio</h3>
-                <p>Este foi o primeiro site que desenvolvi estudando front-end.</p>
-                <a href="https://github.com/Carlos779-cloud/site">Ver projeto</a>
-            </article>
+            <div class="section-header">
+                <span class="section-tag">Portfólio Prático</span>
+                <h2>Projetos em Destaque</h2>
+                <p>Aplicações reais de Machine Learning, pipelines de dados e inteligência artificial</p>
+            </div>
+
+            <div class="projects-grid">
+
+                <!-- PROJETO 1: Predição de Falhas em Máquinas -->
+                <article class="project-card featured">
+                    <div class="project-header">
+                        <span class="project-category"><i class="fa-solid fa-industry"></i> Manutenção Preditiva & Indústria</span>
+                        <span class="project-status completed"><i class="fa-solid fa-circle-check"></i> Concluído</span>
+                    </div>
+                    <h3 class="project-title">Predição de Falhas em Máquinas Industriais</h3>
+                    <p class="project-description">
+                        Sistema completo de Machine Learning supervisionado para antecipar quebras mecânicas através de sensores operacionais 
+                        (temperatura, torque, rotação e desgaste). Utilizou balanceamento de classes com <strong>SMOTE</strong>, padronização e 
+                        avaliação comparativa entre <strong>Random Forest, Decision Tree e KNN</strong> com matriz de confusão.
+                    </p>
+                    <div class="project-techs">
+                        <span>Python</span>
+                        <span>Scikit-Learn</span>
+                        <span>Random Forest</span>
+                        <span>SMOTE</span>
+                        <span>Pandas</span>
+                        <span>Seaborn</span>
+                    </div>
+                    <div class="project-actions">
+                        <a href="https://github.com/Carlos779-cloud/Projeto_Final" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-github">
+                            <i class="fa-brands fa-github"></i> Ver no GitHub
+                        </a>
+                        <a href="https://share.vidyard.com/watch/LdxweJ314FWeidFqC7Auw5" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-video">
+                            <i class="fa-solid fa-play"></i> Assistir Vídeo Demo
+                        </a>
+                    </div>
+                </article>
+
+                <!-- PROJETO 2: Classificação de Dígitos e Imagens -->
+                <article class="project-card">
+                    <div class="project-header">
+                        <span class="project-category"><i class="fa-solid fa-eye"></i> Visão Computacional & Redes Neurais</span>
+                        <span class="project-status completed"><i class="fa-solid fa-circle-check"></i> Concluído</span>
+                    </div>
+                    <h3 class="project-title">Classificação de Dígitos & Reconhecimento de Padrões</h3>
+                    <p class="project-description">
+                        Benchmark comparativo de algoritmos para classificação de imagens manuscritas (MNIST) e inferência em imagem própria. 
+                        Avaliação rigorosa de <strong>Random Forest, KNN, SVM e MLP (Multi-Layer Perceptron)</strong> considerando acurácia, 
+                        precisão, recall, F1-score e tempo computacional.
+                    </p>
+                    <div class="project-techs">
+                        <span>Python</span>
+                        <span>OpenCV</span>
+                        <span>Scikit-Learn</span>
+                        <span>SVM & MLP</span>
+                        <span>Jupyter</span>
+                    </div>
+                    <div class="project-actions">
+                        <a href="https://github.com/Carlos779-cloud/Modulo-02-MniProjeto/tree/main" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-github">
+                            <i class="fa-brands fa-github"></i> Ver no GitHub
+                        </a>
+                        <a href="https://share.vidyard.com/watch/tWWcRAykF4VXGP1nDCg9D9" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-video">
+                            <i class="fa-solid fa-play"></i> Assistir Vídeo Demo
+                        </a>
+                    </div>
+                </article>
+
+                <!-- PROJETO 3: SalesInsight PY -->
+                <article class="project-card">
+                    <div class="project-header">
+                        <span class="project-category"><i class="fa-solid fa-chart-pie"></i> Pipeline de Dados & Projeções</span>
+                        <span class="project-status completed"><i class="fa-solid fa-circle-check"></i> Concluído</span>
+                    </div>
+                    <h3 class="project-title">SalesInsight PY — Análise de Vendas & Tendências</h3>
+                    <p class="project-description">
+                        Pipeline de dados ponta a ponta construído em Python com Programação Orientada a Objetos. Executa ingestão, 
+                        limpeza, transformações analíticas, segmentação de clientes em níveis (Bronze, Prata, Ouro) e cálculo de 
+                        projeções preditivas de tendência comercial com exportação automatizada de relatórios.
+                    </p>
+                    <div class="project-techs">
+                        <span>Python</span>
+                        <span>Pandas & NumPy</span>
+                        <span>POO</span>
+                        <span>Matplotlib</span>
+                        <span>Data Pipeline</span>
+                    </div>
+                    <div class="project-actions">
+                        <a href="https://github.com/Carlos779-cloud/Mini_Projeto" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-github">
+                            <i class="fa-brands fa-github"></i> Ver no GitHub
+                        </a>
+                        <a href="https://drive.google.com/file/d/1Qr4tY0xXJDXS7UqQx9lhcko6wNV99m-5/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-video">
+                            <i class="fa-solid fa-play"></i> Assistir Vídeo Demo
+                        </a>
+                    </div>
+                </article>
+
+                <!-- PROJETO 4: EM DESENVOLVIMENTO (PRONTO PARA VOCÊ PREENCHER) -->
+                <article class="project-card in-progress">
+                    <div class="project-header">
+                        <span class="project-category"><i class="fa-solid fa-gear fa-spin"></i> Projeto Final / Avançado</span>
+                        <span class="project-status pending"><i class="fa-solid fa-clock"></i> Em Finalização</span>
+                    </div>
+                    <h3 class="project-title">Projeto 4: Machine Learning Aplicado (Em Breve)</h3>
+                    <p class="project-description">
+                        Este projeto está em fase final de desenvolvimento. Ele integrará técnicas preditivas avançadas 
+                        direcionadas a resolução de problemas reais de mercado e logística.
+                    </p>
+                    <div class="project-techs">
+                        <span>Python</span>
+                        <span>Machine Learning</span>
+                        <span>IA Preditiva</span>
+                        <span>Deploy</span>
+                    </div>
+                    <div class="project-actions">
+                        <!-- Substitua o '#' pelo link do seu repositório no GitHub quando estiver pronto -->
+                        <a href="#" class="btn btn-sm btn-disabled" title="Em breve no GitHub">
+                            <i class="fa-brands fa-github"></i> Repositório em Breve
+                        </a>
+                        <!-- Substitua o '#' pelo link do vídeo demonstrativo -->
+                        <a href="#" class="btn btn-sm btn-disabled" title="Vídeo em gravação">
+                            <i class="fa-solid fa-video"></i> Vídeo em Breve
+                        </a>
+                    </div>
+                </article>
+
+            </div>
         </div>
     </section>
 
     <!-- HABILIDADES -->
-    <section id="habilidades">
+    <section id="habilidades" class="section">
         <div class="container">
-            <h2>Habilidades e Tecnologias</h2>
+            <div class="section-header">
+                <span class="section-tag">Competências</span>
+                <h2>Habilidades Técnicas e de Negócio</h2>
+                <p>Ferramentas e metodologias aplicadas na construção de soluções preditivas</p>
+            </div>
 
-            <table>
-                <thead>
-                    <tr>
-                        <th>Tecnologias</th>
-                        <th>Nível</th>
-                        <th>Descrição</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>HTML</td>
-                        <td>Intermediário</td>
-                        <td>Construção de páginas semânticas e responsivas.</td>
-                    </tr>
-                    <tr>
-                        <td>CSS</td>
-                        <td>Intermediário</td>
-                        <td>Experiência com Flexbox, Grid e animações.</td>
-                    </tr>
-                    <tr>
-                        <td>JavaScript</td>
-                        <td>Básico</td>
-                        <td>Interatividade no lado do cliente.</td>
-                    </tr>
-                </tbody>
-            </table>
+            <div class="skills-grid">
+                <!-- Card 1 -->
+                <div class="skill-group">
+                    <div class="skill-header">
+                        <i class="fa-solid fa-robot"></i>
+                        <h3>Machine Learning & IA</h3>
+                    </div>
+                    <ul class="skill-list">
+                        <li><i class="fa-solid fa-check"></i> Modelos Supervisionados (Classificação e Regressão)</li>
+                        <li><i class="fa-solid fa-check"></i> Random Forest, Decision Tree, SVM, KNN</li>
+                        <li><i class="fa-solid fa-check"></i> Redes Neurais Artificiais (MLP)</li>
+                        <li><i class="fa-solid fa-check"></i> Balanceamento de Classes (SMOTE)</li>
+                        <li><i class="fa-solid fa-check"></i> Métricas: Acurácia, F1-Score, Recall, Matriz de Confusão</li>
+                    </ul>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="skill-group">
+                    <div class="skill-header">
+                        <i class="fa-brands fa-python"></i>
+                        <h3>Ecossistema Python & Dados</h3>
+                    </div>
+                    <ul class="skill-list">
+                        <li><i class="fa-solid fa-check"></i> Python Estruturado e Orientado a Objetos (POO)</li>
+                        <li><i class="fa-solid fa-check"></i> Pandas (Tratamento, Limpeza e Agregações)</li>
+                        <li><i class="fa-solid fa-check"></i> NumPy (Operações Matriciais e Vetorizadas)</li>
+                        <li><i class="fa-solid fa-check"></i> Scikit-Learn e Imbalanced-Learn</li>
+                        <li><i class="fa-solid fa-check"></i> Jupyter Notebook e VS Code</li>
+                    </ul>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="skill-group">
+                    <div class="skill-header">
+                        <i class="fa-solid fa-chart-column"></i>
+                        <h3>Análise Exploratória & Visão</h3>
+                    </div>
+                    <ul class="skill-list">
+                        <li><i class="fa-solid fa-check"></i> Matplotlib e Seaborn (Heatmaps, Boxplots, Dispersões)</li>
+                        <li><i class="fa-solid fa-check"></i> OpenCV (Processamento e Tratamento de Imagens)</li>
+                        <li><i class="fa-solid fa-check"></i> Análise de Correlação e Detecção de Outliers</li>
+                        <li><i class="fa-solid fa-check"></i> Projeção de Tendências e Métricas de Vendas</li>
+                        <li><i class="fa-solid fa-check"></i> Visualização de Indicadores para Tomada de Decisão</li>
+                    </ul>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="skill-group">
+                    <div class="skill-header">
+                        <i class="fa-solid fa-boxes-packing"></i>
+                        <h3>Domínio Logístico & Gestão</h3>
+                    </div>
+                    <ul class="skill-list">
+                        <li><i class="fa-solid fa-check"></i> Gestão de Cadeia de Suprimentos (Supply Chain)</li>
+                        <li><i class="fa-solid fa-check"></i> Prevenção de Falhas Operacionais & Manutenção</li>
+                        <li><i class="fa-solid fa-check"></i> Otimização de Processos e Redução de Ineficiências</li>
+                        <li><i class="fa-solid fa-check"></i> Controle e Gestão Inteligente de Estoques</li>
+                        <li><i class="fa-solid fa-check"></i> Controle de Versão com Git, GitHub e Métodos Ágeis (Kanban)</li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </section>
 
     <!-- CONTATO -->
-    <section id="contato">
+    <section id="contato" class="section section-dark">
         <div class="container">
-            <h2>Contato</h2>
-            <p>Tem um projeto em mente? Entre em contato.</p>
+            <div class="section-header">
+                <span class="section-tag">Conexão</span>
+                <h2>Vamos Conversar?</h2>
+                <p>Estou à disposição para projetos, oportunidades em dados/ML e troca de ideias sobre inovação na logística.</p>
+            </div>
 
-            <form>
-                <input type="text" placeholder="Nome" required>
-                <input type="email" placeholder="E-mail" required>
-                <input type="tel" placeholder="Telefone">
+            <div class="contact-grid">
+                <div class="contact-card">
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="fa-brands fa-linkedin-in"></i></div>
+                        <div>
+                            <h4>LinkedIn</h4>
+                            <p>Acompanhe minhas publicações e conexões profissionais</p>
+                            <a href="https://www.linkedin.com/in/carlos-joao-reinert" target="_blank" rel="noopener noreferrer">
+                                /in/carlos-joao-reinert <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </a>
+                        </div>
+                    </div>
 
-                <select>
-                    <option>Orçamento</option>
-                    <option>Dúvida</option>
-                    <option>Outro</option>
-                </select>
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="fa-brands fa-github"></i></div>
+                        <div>
+                            <h4>GitHub</h4>
+                            <p>Explore meus repositórios de código e notebooks</p>
+                            <a href="https://github.com/Carlos779-cloud" target="_blank" rel="noopener noreferrer">
+                                /Carlos779-cloud <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
 
-                <textarea rows="5" placeholder="Mensagem" required></textarea>
+                <div class="contact-form-wrapper">
+                    <!-- Formulário pronto para integração com Formspree ou similar -->
+                    <form class="contact-form" action="https://formspree.io/f/SEU_EMAIL_AQUI" method="POST">
+                        <div class="form-group">
+                            <label for="nome">Seu Nome</label>
+                            <input type="text" id="nome" name="nome" placeholder="Digite seu nome completo" required>
+                        </div>
 
-                <label class="checkbox">
-                    <input type="checkbox">
-                    Deseja receber minha newsletter?
-                </label>
+                        <div class="form-group">
+                            <label for="email">Seu E-mail</label>
+                            <input type="email" id="email" name="email" placeholder="seuemail@exemplo.com" required>
+                        </div>
 
-                <input type="submit" value="Enviar mensagem">
-            </form>
+                        <div class="form-group">
+                            <label for="assunto">Assunto</label>
+                            <select id="assunto" name="assunto">
+                                <option value="oportunidade">Oportunidade Profissional (Vaga / Projeto)</option>
+                                <option value="logistica_ml">Projeto de ML & Logística</option>
+                                <option value="networking">Networking / Troca de Ideias</option>
+                                <option value="outro">Outro</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="mensagem">Mensagem</label>
+                            <textarea id="mensagem" name="mensagem" rows="4" placeholder="Escreva sua mensagem aqui..." required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-block">
+                            <i class="fa-regular fa-paper-plane"></i> Enviar Mensagem
+                        </button>
+                    </form>
+                </div>
+            </div>
         </div>
     </section>
 
-    <footer>
-        <p>© 2026 Carlos - Todos os direitos reservados</p>
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <p>© 2026 <strong>Carlos João Reinert</strong> — Machine Learning Preditivo & Inteligência Artificial.</p>
+            <div class="footer-links">
+                <a href="#inicio">Início</a>
+                <a href="#sobre">Sobre</a>
+                <a href="#projetos">Projetos</a>
+                <a href="#contato">Contato</a>
+            </div>
+        </div>
     </footer>
 
 </body>
