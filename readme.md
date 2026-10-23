@@ -17,20 +17,21 @@ Este site serve como vitrine para projetos práticos de Ciência de Dados e IA a
 
 ## 📂 Projetos em Destaque
 
-1. **[Predição de Falhas em Máquinas Industriais (Manutenção Preditiva)](https://github.com/Carlos779-cloud/Projeto_Final)**
-   * Modelo supervisionado para antecipar falhas operacionais com dados de sensores.
-   * *Vídeo Demo:* [Assistir no Vidyard](https://share.vidyard.com/watch/LdxweJ314FWeidFqC7Auw5)
-
-2. **[Classificação de Dígitos & Reconhecimento de Padrões (MNIST)](https://github.com/Carlos779-cloud/Modulo-02-MniProjeto/tree/main)**
-   * Benchmark de modelos (SVM, MLP, Random Forest, KNN) e inferência em imagens com OpenCV.
-   * *Vídeo Demo:* [Assistir no Vidyard](https://share.vidyard.com/watch/tWWcRAykF4VXGP1nDCg9D9)
-
-3. **[SalesInsight PY — Pipeline de Vendas & Projeções](https://github.com/Carlos779-cloud/Mini_Projeto)**
+1. **[SalesInsight PY — Pipeline de Vendas & Projeções](https://github.com/Carlos779-cloud/Mini_Projeto)**
    * Pipeline automatizado em Python orientado a objetos para ingestão, tratamento e projeções comerciais.
    * *Vídeo Demo:* [Assistir no Google Drive](https://drive.google.com/file/d/1Qr4tY0xXJDXS7UqQx9lhcko6wNV99m-5/view?usp=sharing)
 
-4. **Projeto 4: Machine Learning Aplicado**
-   * *Em finalização de desenvolvimento.*
+2. **[Predição de Falhas em Máquinas Industriais (Manutenção Preditiva)](https://github.com/Carlos779-cloud/Projeto_Final)**
+   * Modelo supervisionado para antecipar falhas operacionais com dados de sensores operacionais e balanceamento SMOTE.
+   * *Vídeo Demo:* [Assistir no Vidyard](https://share.vidyard.com/watch/LdxweJ314FWeidFqC7Auw5)
+
+3. **[Classificação de Dígitos & Reconhecimento de Padrões (MNIST)](https://github.com/Carlos779-cloud/Modulo-02-MniProjeto/tree/main)**
+   * Benchmark de modelos (SVM, MLP, Random Forest, KNN) e inferência em imagens com OpenCV.
+   * *Vídeo Demo:* [Assistir no Vidyard](https://share.vidyard.com/watch/tWWcRAykF4VXGP1nDCg9D9)
+
+4. **[SCTEC 2026 — Solução Integrada de IA Preditiva, API & Dashboard](https://github.com/Carlos779-cloud/SCTEC_2026_Projeto_Final)**
+   * Projeto final integrador com pipeline completo de Machine Learning, API REST (FastAPI) para inferência em tempo real, dashboard interativo em Streamlit, módulo de Chatbot inteligente e suíte de testes modular.
+   * *Vídeo Demo:* [Assistir Vídeo Demo (Inserir link do vídeo aqui)](LINK_DO_SEU_VIDEO_AQUI)
 
 ---
 
