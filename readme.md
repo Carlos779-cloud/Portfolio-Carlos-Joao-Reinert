@@ -1,6 +1,6 @@
 # 🚀 Portfólio Profissional — Carlos João Reinert
 
-Portfólio profissional desenvolvido para apresentar projetos, competências e trajetória na transição da área de **Logística** para **Machine Learning Preditivo, Python e Inteligência Artificial**.
+Portfólio profissional desenvolvido para apresentar projetos, competências e trajetória na transição da área de **Supermercado e Logística** para **Machine Learning Preditivo, Python e Inteligência Artificial**.
 
 ---
 
