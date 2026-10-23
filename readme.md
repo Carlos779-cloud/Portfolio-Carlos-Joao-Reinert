@@ -1,16 +1,16 @@
 # 🚀 Portfólio Profissional — Carlos João Reinert
 
-Portfólio profissional desenvolvido para apresentar projetos, competências e trajetória na transição da área de **Supermercado e Logística** para **Machine Learning Preditivo, Python e Inteligência Artificial**.
+Portfólio profissional desenvolvido para apresentar minha trajetória, meus projetos e minhas competências na transição de carreira de Supermercado e Logística para a área de Tecnologia, com foco em **Python, Machine Learning Preditivo, Análise de Dados e Inteligência Artificial**.
 
 ---
 
 ## 📌 Sobre o Portfólio
 
-Este site serve como vitrine para projetos práticos de Ciência de Dados e IA aplicada a operações industriais, gestão de vendas e análise preditiva.
+Reúno neste espaço projetos práticos, conhecimentos em desenvolvimento de software e aplicações de aprendizado de máquina, demonstrando minha evolução contínua e meu compromisso em transformar dados em informações úteis para a tomada de decisões e a solução de problemas reais.
 
 ### Destaques do Perfil:
-* **Background em Logística:** Vivência prática dos desafios de supply chain, controle de estoque, gargalos de fluxo e necessidade de previsão precisa.
-* **Foco Preditivo:** Algoritmos supervisionados (Random Forest, SVM, KNN, Redes Neurais MLP), balanceamento com SMOTE e métricas reais de avaliação.
+* **Background em Supermercado e Logística:** Vivência em controle de estoque, gargalos de fluxo e necessidade de previsão precisa.
+* **Foco Preditivo:** Algoritmos supervisionados (Random Forest, SVM, KNN, Redes Neurais MLP etc.), balanceamento com SMOTE e métricas reais de avaliação.
 * **Engenharia de Dados com Python:** Pipelines estruturados com Pandas, NumPy, Matplotlib, Seaborn e OpenCV.
 
 ---
