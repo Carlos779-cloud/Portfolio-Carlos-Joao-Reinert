@@ -31,7 +31,7 @@ Reúno neste espaço projetos práticos, conhecimentos em desenvolvimento de sof
 
 4. **[SCTEC 2026 — Solução Integrada de IA Preditiva, API & Dashboard](https://github.com/Carlos779-cloud/SCTEC_2026_Projeto_Final)**
    * Projeto final integrador com pipeline completo de Machine Learning, API REST (FastAPI) para inferência em tempo real, dashboard interativo em Streamlit, módulo de Chatbot inteligente e suíte de testes modular.
-   * *Vídeo Demo:* [Assistir Vídeo no Youtube](https://1drv.ms/v/c/0c1a15f59618ec33/IQCCSuG7xNjRQrAgrQUiaeLfAfs49hpxliSMQrAmJjbCEss?e=kwtNpn](https://youtu.be/r5gGV-pp_1U](https://youtu.be/r5gGV-pp_1U)
+   * *Vídeo Demo:* [Assistir Vídeo no Youtube](https://youtu.be/r5gGV-pp_1U](https://youtu.be/r5gGV-pp_1U)
 
 ---
 
